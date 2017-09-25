@@ -1,0 +1,17 @@
+{
+  "name": "gitt",
+  "version": "1.0.0",
+  "description": "Galaxy Information & Telecommunication Technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "information",
+    "internet",
+    "telecommunications",
+    "technology"
+  ],
+  "author": "FakSam",
+  "license": "ISC"
+}

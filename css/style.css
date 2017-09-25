@@ -1,0 +1,174 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  padding: inherit;
+}
+
+nav
+{
+    font-size: 18px;
+    float: right;
+    width: 100%;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 632px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background: #e6e6e6;
+}
+
+video {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+/* min-height: 632px; */
+
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-moz-transform: translateX(-50%) translateY(-50%);
+-ms-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url('../images/corp_demo_home_poster.jpg') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity;
+}
+
+@media only screen and (max-width : 600px) {
+  video {
+    background: url('../images/corp_demo_home_poster.jpg') no-repeat; background-size: cover;  -webkit-transition: 1s opacity; transition: 1s opacity;
+  }
+}
+/*
+
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+
+*/
+
+.sticky {
+    display: block;
+}
+
+aside {
+    display: block;
+}
+
+
+#sticky-social a, #sticky-social a:hover {
+    text-decoration: none;
+}
+
+#sticky-social a span {
+    font-family: Lato;
+}
+
+#sticky-social ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#sticky-social {
+left: 0;
+position: fixed;
+top: 200px;
+z-index: 999;
+}
+
+#sticky-social a {
+    background: #333;
+    color: #fff;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    text-align: center;
+    width: 35px;
+}
+
+#sticky-social a span {
+    line-height: 35px;
+    left: -120px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+
+#sticky-social a:hover span {
+    left: 100%;
+}
+
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span {
+    background: #3b5998;
+}
+
+#sticky-social a[class*="fa-wikipedia-w"],
+#sticky-social a[class*="fa-wikipedia-w"]:hover,
+#sticky-social a[class*="fa-wikipedia-w"] span {
+    background: #333333;
+}
+
+#sticky-social a[class*="youtube"],
+#sticky-social a[class*="youtube"]:hover,
+#sticky-social a[class*="youtube"] span {
+    background: #C8302A;
+}
